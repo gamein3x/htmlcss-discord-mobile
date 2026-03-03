@@ -12,3 +12,11 @@ body {
     width: 512px;
     margin: 0 auto;
 }
+
+:root{
+    --standard-width: 512px;
+}
+
+.banner {
+    width: var(--standard-width);
+}
