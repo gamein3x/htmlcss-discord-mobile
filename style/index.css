@@ -1,0 +1,14 @@
+/* CSS RESET */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Pre-set per impostazione mobile-first */
+
+body {
+    width: 512px;
+    margin: 0 auto;
+}
