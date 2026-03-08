@@ -14,6 +14,10 @@ body {
     color: white;
 }
 
+img {
+    display: block;
+}
+
 .font-sigmar {
     font-family: "Sigmar", sans-serif;
 }
@@ -47,12 +51,9 @@ body {
     top: 80px;
 }
 
-.titolo-main {
+h1 {
     line-height: 32px;
-}
-
-.up {
-    text-transform: uppercase;
+    text-transform: uppercase
 }
 
 button {
@@ -86,4 +87,45 @@ button:active {
 
 .testo-main {
     margin: 12px 0;
+}
+
+.sezione-card {
+    position: relative;
+    background: #5D64D1;
+    margin: 0 25px;
+    border-radius: 25px;
+    top: 120px;
+    min-height: 500px;
+}
+
+.decorazione-card {
+    position: absolute;
+}
+
+.box {
+    margin: 0 30px;
+    position: relative;
+    top: 20px;
+}
+
+.titolo-card {
+    width: 70%;
+}
+
+.testo-card {
+    width: 90%;
+    font-size: large;
+}
+
+.demo-card {
+    width: 300px;
+    height: 220px;
+    margin: 0 auto;
+    border-radius: 20px;
+    position: relative;
+    top: 20px;
+}
+
+.card2 {
+    margin-top: 20px;
 }
