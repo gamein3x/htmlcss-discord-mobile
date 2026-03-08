@@ -13,10 +13,37 @@ body {
     margin: 0 auto;
 }
 
-:root{
-    --standard-width: 512px;
+@font-face {
+    font-family: "DM Sans";
+    src: url("../fonts/DM_Sans/DMSans-VariableFont_opsz\,wght.ttf") format('truetype');
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "DM Sans";
+    src: url("../fonts/DM_Sans/DMSans-Italic-VariableFont_opsz\,wght.ttf") format('truetype');
+    font-style: italic;
+    font-weight: 100 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Sigmar";
+    src: url("../fonts/Sigmar/Sigmar-Regular.ttf") format('truetype');
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+}
+
+.main {
+    background: lightgrey;
 }
 
 .banner {
-    width: var(--standard-width);
+    display: inline-block;
+    height: 20%;
+    max-width: 512px;
 }
+
