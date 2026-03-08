@@ -94,18 +94,20 @@ button:active {
     background: #5D64D1;
     margin: 0 25px;
     border-radius: 25px;
-    top: 120px;
     min-height: 500px;
 }
 
 .decorazione-card {
     position: absolute;
+    top: -140px;
+    transform: scale(0.4);
+    left: -40px;
 }
 
 .box {
-    margin: 0 30px;
+    margin: 100px 30px;
     position: relative;
-    top: 20px;
+    padding-top: 30px;
 }
 
 .titolo-card {
